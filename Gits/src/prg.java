@@ -20,7 +20,7 @@ public class prg
 		// TODO Auto-generated method stub
 		 System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 	           driver= new ChromeDriver();
-	        Thread.sleep(2000);
+	        Thread.sleep(5000);
 	     }
 	  @Test(    ) 	   
        public  void login() throws InterruptedException, IOException {
@@ -34,7 +34,7 @@ public class prg
         
         
     }
-    System.out.println( "SUCCVESS"); //Just to make sure what is selected
+    System.out.println( "ksr"); //Just to make sure what is selected
     
 
 }
