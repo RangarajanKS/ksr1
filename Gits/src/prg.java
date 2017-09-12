@@ -25,7 +25,7 @@ public class prg
 	  @Test(    ) 	   
        public  void login() throws InterruptedException, IOException {
 	        driver.navigate().to("http://toolsqa.com/automation-practice-form/"); 
-	        Thread.sleep(2000);
+	        Thread.sleep(6000);
 	        Select listItem=new Select(driver.findElement(By.xpath("//*[@id='continents']")));
     for(Integer i=0;i<listItem.getOptions().size();i++)
     {
